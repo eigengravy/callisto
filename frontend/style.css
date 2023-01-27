@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.button-xlarge {
+    font-size: 125%;
+}
+
+h1{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html{
+    background-color: blueviolet;
+    background: linear-gradient(45deg, rgb(69, 0, 126), rgb(142, 3, 255));
+    text-align:center;
+    align-content: center;
+}

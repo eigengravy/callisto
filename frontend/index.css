@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+@import url('https://fonts.googleapis.com/css?family=Arciform');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* #search{ */
+    /* height: 100vh; */
+    /* background-image: url(./bi1.jpg); */
+    /* background-size: 100%; */
+/* } */
+
+#title{
+    text-align: center;
+    font-size: 12vw;
+    font-family: 'Sofia', cursive;
+    color: white;
+    padding-top: 10vh;
+}
+/* 
+#answer-box {
+    width: 75vh;
+} */
+
+.qa{
+    width: 95vw;
+    font-size: 1.5vw;
+    text-align: center;
+    /* font-family: 'Sofia', cursive; */
+    color: white;
+}
+
+
+.gif{
+    text-align: center;
+}
+
+.gif img {
+    width: 7vh;
+    height: 7vh;
+}
+
+.form{
+    width: 25%;
+    margin: 0 auto;
+}
+
+.webpage {
+    /* background-image: url(./bi2.jpg); */
+    /* background-color: rgba(15, 3, 51, 1); */ 
+    background: linear-gradient(45deg, rgba(28, 2, 49, 0.8), rgba(75, 7, 131, 0.6));
+    /* background: linear-gradient(45deg, rgba(173, 29, 137, 0.8), rgba(52, 236, 219, 0.6)); */
+    background-size: contain;
+    /* height: 100vh; */
+}
+
+.questions {
+    /* border: 1px black solid; */
+    background: linear-gradient(45deg, rgba(41, 29, 173, 0.8), rgba(52, 236, 219, 0.6));
+    display: none;
+}
+
+.hide{
+    display: none
+}
+
+.show{
+    display: inline
+}
+
+.qheading {
+    font-size: 3vw;
+    font-family: "Poppins", sans-serif;
+    color: rgb(44, 43, 43);
+}
+
+.nine p {
+    color: black;
+}
+
+.tick, .cross {
+    width: 6vh;
+    height: 6vh;
+}
+
+p{
+    text-align: justify;
+    margin: 0 30vh;
+    color: white;
+    font-size: 3vh;
+    font-family: "Montserrat", sans-serif;
+}
